@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(81, 67, 94);
+    /* elijo paleta de color en violetas, y para mejor legibilidad contrasto letras claras sobre fondo oscuro*/
+}
+
+header {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: rgb(235, 121, 239);
+    text-align: center;
+}
+
+article{
+    border: 5px solid rgb(235, 121, 239);
+    border-radius: 5px 5px;
+    margin: 15px;
+    margin-left: 10px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(209, 122, 212);
+}
+
+img{
+    height: 150px;
+    width: 90px;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+.img-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+video{
+    margin: 20px;
+}
+
+.video-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
